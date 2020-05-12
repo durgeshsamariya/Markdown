@@ -95,5 +95,13 @@ Example:
 
 ~~This text is strikethrough.~~
 
+## Images
+
+![Alt text](https://github.com/dcurtis/markdown-mark/blob/master/png/208x128-solid.png)
+
+    Syntex:
+    
+	![Alt text](https://github.com/dcurtis/markdown-mark/blob/master/png/208x128-solid.png)	
+
 
 [Markdown]: https://daringfireball.net/projects/markdown/
