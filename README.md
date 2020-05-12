@@ -100,8 +100,31 @@ Example:
 ![Alt text](https://github.com/dcurtis/markdown-mark/blob/master/png/208x128-solid.png)
 
     Syntex:
-    
+
 	![Alt text](https://github.com/dcurtis/markdown-mark/blob/master/png/208x128-solid.png)	
 
+## Links
+Markdown supports inline and reference links.
+
+### inline links
+To create an inline link, use this syntax:
+
+	[ Text for the link ](URL)
+
+Example:
+
+I am [Durgesh](www.durgeshsamariya.com).
+
+
+### reference links
+Reference links use square brackts insted of paranthesis.
+
+    Syntex:
+        This is [reference][link-reference]
+
+Example:
+
+I am [Durgesh][name].
 
 [Markdown]: https://daringfireball.net/projects/markdown/
+[name]: https://durgeshsamariya.com
