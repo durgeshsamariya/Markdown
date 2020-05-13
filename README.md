@@ -10,8 +10,24 @@ Markdown is a lightweight and easy-to-use syntax for styling all forms of writin
 
 You can find documantation and a complete explanation of Markdown's syntex [here][Markdown].
 
-Contents:
-- 
+# Contents
+- [Headings](#Headings)
+- [Emphasis](#Emphasis)
+    - [Bold](#Bold)
+    - [Italic](#Italic)
+    - [Strikethrough](#Strikethrough)
+- [Images](#Images)
+- [Links](#Links)
+- [Paragraphs](#Paragraphs)
+- [BlockQuotes](#BlockQuotes)
+- [Lists](#Lists)
+    - [Ordered Lists](#Ordered-Lists)
+    - [Unordered Lists](#Unordered-Lists)
+- [Code](#Code)
+- [Syntax highlighting or Multiline code](Syntax-highlighting-or-Multiline-code)
+- [Tables](#Tables)
+- [Horizontal Rules](#Horizontal-Rules)
+
 
 ## Headings
 You can create headings by prefixing with a # (hash mark)
@@ -84,7 +100,7 @@ Example:
 
 _You **can** combine them_
 
-## Strikethrough
+### Strikethrough
 
 Markdown supports strikethrough by wrapping text in `~~`:
 
@@ -130,7 +146,7 @@ You can define your link label anywhere in the document, usually at the bottom o
 
 	[reference-link]: http://example.com/  "Optional Title Here"
 
-## PARAGRAPHS
+## Paragraphs
 
 A paragraph is one or more consecutive lines of text separated by one or more.
 
@@ -145,7 +161,7 @@ This is paragraph one.
 
 This is paragraph two.
 
-## BLOCKQUOTES
+## BlockQuotes
 Markdown uses > (greater than) character for blockquoting.
 
     Syntex:
@@ -174,7 +190,7 @@ Example
 2. Item two 
 3. Item three
 
-### Unordered
+### Unordered Lists
 
 Form bulleted lists with any of * (asterisk), + (plus), or - (dash). You can one or any or mix of these to form a list:
 
