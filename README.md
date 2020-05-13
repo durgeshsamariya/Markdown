@@ -113,18 +113,181 @@ To create an inline link, use this syntax:
 
 Example:
 
-I am [Durgesh](www.durgeshsamariya.com).
+This is inline [link](www.durgeshsamariya.com).
 
 
 ### reference links
 Reference links use square brackts insted of paranthesis.
 
     Syntex:
-        This is [reference][link-reference]
+        This is [reference][reference-link] link example.
 
 Example:
 
-I am [Durgesh][name].
+This is [reference][reference-link] link example.
+
+You can define your link label anywhere in the document, usually at the bottom of the file, as:
+
+	[reference-link]: http://example.com/  "Optional Title Here"
+
+## PARAGRAPHS
+
+A paragraph is one or more consecutive lines of text separated by one or more.
+
+    Syntex:
+        This is paragramph one.
+
+        This is paragraph two.
+
+Example:
+
+This is paragraph one.
+
+This is paragraph two.
+
+## BLOCKQUOTES
+Markdown uses > (greater than) character for blockquoting.
+
+    Syntex:
+        > This is quote.
+
+Example:
+
+> This is quote. 
+
+> Learn from yesterday, live for today, hope for tomorrow. – Albert Einstein
+
+## Lists
+Markdown supports ordered (numbered) and unordered (bulleted) lists.
+
+### Ordered Lists
+
+Ordered lists require a numeric character followed by a . (period).
+
+    Syntex:
+		1. Item one
+		2. Item two 
+		3. Item three
+
+Example
+1. Item one
+2. Item two 
+3. Item three
+
+### Unordered
+
+Form bulleted lists with any of * (asterisk), + (plus), or - (dash). You can one or any or mix of these to form a list:
+
+    Syntex:
+        * Item one 
+        + Item two
+        - Item three
+
+
+* Item one 
++ Item two
+- Item three
+
+
+Lists can be embedded in lists.
+    
+    Syntex:
+        * Item one
+        + Item two
+	        * Sub item one
+	        * Sub item two	
+        - Item three
+	        1. Sub item one
+		        1. sub sub item 1 
+		        2. sub sub item 2
+	        2. Sub item two 
+	            * sub sub one
+		        * sub sub two
+	        3. Sub item three
+
+Example:
+
+* Item one 
++ Item two
+	* Sub item one
+	* Sub item two	
+- Item three
+	1. Sub item one
+		1. sub sub item 1 
+		2. sub sub item 2
+	2. Sub item two 
+	    * sub sub one
+		* sub sub two
+	3. Sub item three
+
+## Code
+To indicate a span of code, wrap it with `` ` `` (backtick).
+
+    Syntex:
+        `print("This is Markdown demo.")`
+
+Example:
+
+`print("This is Markdown demo.")`
+
+##  Syntax highlighting or Multiline code
+For indicating multiple line code spam, wrap code with `` ``` ``(three backticks)
+
+    Syntex:
+        ```
+            Code line 1
+            Code line 2
+            Code line 3
+        ```
+
+Example:
+```
+for i in range(10):
+    print(i)
+```
+
+## Tables
+
+In Markdown you can create table using the - (dash) and the | (pipe) symbols. The first line contains column headers. Separate columns with the pipe symbol. The  second line must be a mandatory separator line between the headers and the content. Subsequent lines are table rows. Columns are always separated by the pipe (|) character.
+
+    Syntex:
+
+	    Header One  | Header Two
+	    ------------- | -------------
+	    Cell Content  | Cell Content
+	    Cell Content  | Cell Content
+
+Example:
+
+Header One  | Header Two
+------------- | -------------
+Cell Content  | Cell Content
+Cell Content  | Cell Content
+
+## Horizontal Rules
+
+You can create horizontol rule with any of the following codes:
+
+    Syntex:
+        * * *
+        ***
+    	- - - 
+    	---
+
+Example:
+
+Line 1
+* * *
+
+Line 2
+***
+
+Line 3
+- - -
+
+Line 4
+___
+
 
 [Markdown]: https://daringfireball.net/projects/markdown/
-[name]: https://durgeshsamariya.com
+[reference-link]: https://durgeshsamariya.com "Durgesh Samariya"
