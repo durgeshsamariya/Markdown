@@ -275,10 +275,10 @@ In Markdown you can create table using the - (dash) and the | (pipe) symbols. Th
 
 Example:
 
-Header One  | Header Two
+| Header One | Header Two |
 ------------- | -------------
-Cell Content  | Cell Content
-Cell Content  | Cell Content
+| Cell Content  | Cell Content |
+| Cell Content  | Cell Content |
 
 ## Horizontal Rules
 
